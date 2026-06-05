@@ -11,11 +11,11 @@
 ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝    ╚══════╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚══════╝
 ```
 
-### A command line school for learning Linux through real terminal practice.
+### A hands-on command line school for learning Linux through real terminal practice.
 
 ![Linux](https://img.shields.io/badge/Linux-CLI-black?style=for-the-badge\&logo=linux)
 ![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge\&logo=gnubash\&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222222?style=for-the-badge\&logo=github)
+![GitHub](https://img.shields.io/badge/GitHub-Learning_Repo-181717?style=for-the-badge\&logo=github)
 ![License](https://img.shields.io/github/license/m4ckDev/Linux-School?style=for-the-badge)
 
 </div>
@@ -24,38 +24,23 @@
 
 ## 🧠 What Is Linux School?
 
-**Linux School** is a hands-on command line learning project built for beginners who want to understand Linux by actually using it.
+**Linux School** is a structured Linux command line learning project.
 
-This is not just a notes repository.
+This repository is built like a real school:
 
-This is a structured CLI school built around:
+| Area           | Purpose                              |
+| -------------- | ------------------------------------ |
+| `lessons/`     | Step-by-step learning modules        |
+| `labs/`        | Hands-on terminal exercises          |
+| `challenges/`  | Mission-based skill checks           |
+| `cheatsheets/` | Quick command references             |
+| `scripts/`     | Bash scripts and automation examples |
+| `quizzes/`     | Knowledge checks                     |
+| `docs/`        | Future GitHub Pages documentation    |
 
-<table>
-<tr>
-<td><strong>Lessons</strong></td>
-<td>Step-by-step learning modules</td>
-</tr>
-<tr>
-<td><strong>Labs</strong></td>
-<td>Hands-on command line exercises</td>
-</tr>
-<tr>
-<td><strong>Challenges</strong></td>
-<td>Skill-building CLI missions</td>
-</tr>
-<tr>
-<td><strong>Cheatsheets</strong></td>
-<td>Fast references for commands and concepts</td>
-</tr>
-<tr>
-<td><strong>Scripts</strong></td>
-<td>Real Bash automation examples</td>
-</tr>
-<tr>
-<td><strong>Quizzes</strong></td>
-<td>Knowledge checks after each module</td>
-</tr>
-</table>
+This is not just a notes repo.
+
+This is a practical CLI training system.
 
 ---
 
@@ -63,19 +48,36 @@ This is a structured CLI school built around:
 
 The mission of Linux School is simple:
 
-> Teach Linux command line skills through repetition, structure, and real-world practice.
+> Teach Linux command line skills through repetition, structure, labs, and real-world practice.
 
-The goal is to help learners move from:
+The goal is to move learners from:
 
 ```text
-"I have no idea what this terminal does."
+"I do not understand the terminal."
 ```
 
 to:
 
 ```text
-"I can navigate, troubleshoot, script, and understand Linux systems."
+"I can navigate, create, troubleshoot, script, and manage Linux systems from the command line."
 ```
+
+---
+
+## 📚 Module Index
+
+| Module | Topic                    | Lesson                                                                                                        | Practice                                                 | Lab                                            | Challenge                                                                  | Quiz                                                |
+| ------ | ------------------------ | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------- | --------------------------------------------------- |
+| 00     | Getting Started          | [Start](lessons/00-getting-started/README.md)                                                                 | [Commands](lessons/00-getting-started/commands.md)       | [Lab 01](labs/lab-01-terminal-basics.md)       | Coming Soon                                                                | [Quiz 01](quizzes/quiz-01-terminal-basics.md)       |
+| 01     | Navigation               | [Overview](lessons/01-navigation/README.md) / [Lesson](lessons/01-navigation/lesson.md)                       | [Practice](lessons/01-navigation/practice.md)            | [Lab 02](labs/lab-02-file-navigation.md)       | [File Hunter](challenges/beginner/challenge-01-file-hunter.md)             | [Quiz 02](quizzes/quiz-02-navigation.md)            |
+| 02     | Files and Directories    | [Overview](lessons/02-files-and-directories/README.md) / [Lesson](lessons/02-files-and-directories/lesson.md) | [Practice](lessons/02-files-and-directories/practice.md) | [Lab 03](labs/lab-03-files-and-directories.md) | [Directory Builder](challenges/beginner/challenge-02-directory-builder.md) | [Quiz 03](quizzes/quiz-03-files-and-directories.md) |
+| 03     | Users and Permissions    | Planned                                                                                                       | Planned                                                  | Planned                                        | Planned                                                                    | Planned                                             |
+| 04     | Package Management       | Planned                                                                                                       | Planned                                                  | Planned                                        | Planned                                                                    | Planned                                             |
+| 05     | Processes and Services   | Planned                                                                                                       | Planned                                                  | Planned                                        | Planned                                                                    | Planned                                             |
+| 06     | Networking Basics        | Planned                                                                                                       | Planned                                                  | Planned                                        | Planned                                                                    | Planned                                             |
+| 07     | Bash Scripting           | Planned                                                                                                       | Planned                                                  | Planned                                        | Planned                                                                    | Planned                                             |
+| 08     | System Administration    | Planned                                                                                                       | Planned                                                  | Planned                                        | Planned                                                                    | Planned                                             |
+| 09     | Cybersecurity CLI Basics | Planned                                                                                                       | Planned                                                  | Planned                                        | Planned                                                                    | Planned                                             |
 
 ---
 
@@ -83,7 +85,7 @@ to:
 
 ```mermaid
 flowchart TD
-    A[00 - Getting Started] --> B[01 - Terminal Navigation]
+    A[00 - Getting Started] --> B[01 - Navigation]
     B --> C[02 - Files and Directories]
     C --> D[03 - Users and Permissions]
     D --> E[04 - Package Management]
@@ -93,6 +95,30 @@ flowchart TD
     H --> I[08 - System Administration]
     I --> J[09 - Cybersecurity CLI Basics]
 ```
+
+---
+
+## 🧪 How The School Works
+
+Each module follows the same training loop:
+
+```mermaid
+flowchart LR
+    A[Read Lesson] --> B[Practice Commands]
+    B --> C[Complete Lab]
+    C --> D[Attempt Challenge]
+    D --> E[Take Quiz]
+    E --> F[Repeat]
+```
+
+Every module should include:
+
+1. A module overview
+2. A full lesson
+3. A practice file
+4. A hands-on lab
+5. A challenge
+6. A quiz
 
 ---
 
@@ -130,31 +156,6 @@ Linux-School/
 
 ---
 
-## 🧪 How The School Works
-
-Each module follows the same training pattern:
-
-```mermaid
-flowchart LR
-    A[Learn] --> B[Practice]
-    B --> C[Lab]
-    C --> D[Challenge]
-    D --> E[Quiz]
-    E --> F[Repeat]
-```
-
-### Every lesson includes:
-
-* A simple explanation
-* Real commands
-* Example output
-* Practice tasks
-* A hands-on lab
-* A short quiz
-* A challenge mission
-
----
-
 ## 🚀 Start Here
 
 New learners should begin with:
@@ -163,10 +164,11 @@ New learners should begin with:
 lessons/00-getting-started/
 ```
 
-Then complete:
+Then continue to:
 
 ```text
-labs/lab-01-terminal-basics.md
+lessons/01-navigation/
+lessons/02-files-and-directories/
 ```
 
 Recommended first commands:
@@ -186,18 +188,19 @@ uname -a
 
 ## 🧰 Core Skills You Will Build
 
-| Skill Area      | What You Will Learn                              |
-| --------------- | ------------------------------------------------ |
-| Terminal Basics | How to use the command line confidently          |
-| File System     | How Linux directories and paths work             |
-| Permissions     | How users, groups, and file access work          |
-| Packages        | How to install and remove software               |
-| Processes       | How to view and manage running programs          |
-| Services        | How Linux services work                          |
-| Networking      | How to check IPs, ports, routes, and connections |
-| Bash            | How to write simple automation scripts           |
-| SysAdmin        | How to perform basic Linux administration        |
-| Cyber CLI       | How security tools use the terminal              |
+| Skill Area            | What You Will Learn                                             |
+| --------------------- | --------------------------------------------------------------- |
+| Terminal Basics       | How to use the command line confidently                         |
+| File System           | How Linux directories and paths work                            |
+| Files and Directories | How to create, copy, move, rename, view, and delete files       |
+| Permissions           | How users, groups, ownership, and file permissions work         |
+| Packages              | How to install and remove software                              |
+| Processes             | How to view and manage running programs                         |
+| Services              | How Linux services work                                         |
+| Networking            | How to check IP addresses, ports, routes, DNS, and connectivity |
+| Bash                  | How to write simple automation scripts                          |
+| SysAdmin              | How to perform basic Linux administration                       |
+| Cyber CLI             | How security tools use the terminal                             |
 
 ---
 
@@ -220,7 +223,7 @@ cd ~
 whoami
 ```
 
-Expected mindset:
+Terminal mindset:
 
 ```text
 Do not just memorize commands.
@@ -232,46 +235,28 @@ Repeat them.
 
 ---
 
-## 🧩 Beginner Challenge Preview
+## 🧩 Beginner Challenges
 
-### Challenge: File Hunter
-
-Objective:
-
-```text
-Create a directory, add files, move around the file system, and prove you understand where everything is located.
-```
-
-Commands used:
-
-```bash
-mkdir
-cd
-touch
-ls
-pwd
-rm
-```
-
-Completion requirement:
-
-```text
-You can explain what each command did and why you used it.
-```
+| Challenge    | Topic             | Link                                                          |
+| ------------ | ----------------- | ------------------------------------------------------------- |
+| Challenge 01 | File Hunter       | [Open](challenges/beginner/challenge-01-file-hunter.md)       |
+| Challenge 02 | Directory Builder | [Open](challenges/beginner/challenge-02-directory-builder.md) |
+| Challenge 03 | Permission Fix    | Planned                                                       |
 
 ---
 
 ## 🛡️ Cybersecurity Track
 
-Linux School includes a beginner-friendly cybersecurity CLI track.
+Linux School includes a beginner-friendly cybersecurity CLI path.
 
-Topics include:
+Planned topics include:
 
 * Linux file permissions
+* User and group awareness
 * Basic networking commands
 * Nmap fundamentals
 * Log review basics
-* Hashing commands
+* Hashing files
 * Process inspection
 * Safe lab environments
 * Defensive Linux habits
@@ -280,20 +265,22 @@ This project focuses on ethical, legal, and educational practice.
 
 ---
 
-## 📚 Current Modules
+## 📌 Project Status
 
-| Module | Topic                    | Status   |
-| ------ | ------------------------ | -------- |
-| 00     | Getting Started          | Building |
-| 01     | Navigation               | Planned  |
-| 02     | Files and Directories    | Planned  |
-| 03     | Users and Permissions    | Planned  |
-| 04     | Package Management       | Planned  |
-| 05     | Processes and Services   | Planned  |
-| 06     | Networking Basics        | Planned  |
-| 07     | Bash Scripting           | Planned  |
-| 08     | System Administration    | Planned  |
-| 09     | Cybersecurity CLI Basics | Planned  |
+Current progress:
+
+| Module | Topic                    | Status  |
+| ------ | ------------------------ | ------- |
+| 00     | Getting Started          | Built   |
+| 01     | Navigation               | Built   |
+| 02     | Files and Directories    | Built   |
+| 03     | Users and Permissions    | Next    |
+| 04     | Package Management       | Planned |
+| 05     | Processes and Services   | Planned |
+| 06     | Networking Basics        | Planned |
+| 07     | Bash Scripting           | Planned |
+| 08     | System Administration    | Planned |
+| 09     | Cybersecurity CLI Basics | Planned |
 
 ---
 
@@ -303,36 +290,17 @@ Linux School is built on one rule:
 
 > The terminal only becomes comfortable after you use it repeatedly.
 
-This project uses a simple loop:
+The training loop:
 
 ```text
 Read → Type → Observe → Break → Fix → Repeat
 ```
 
-That is how real command line confidence is built.
-
----
-
-## 📌 Project Status
-
-This project is currently under active development.
-
-Planned additions:
-
-* Full beginner lesson path
-* CLI labs
-* Bash scripts
-* GitHub Pages documentation site
-* Cybersecurity command line modules
-* Visual roadmap
-* Downloadable cheatsheets
-* Student-style quizzes
-
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome once the foundation is complete.
+Contributions will be welcomed once the core foundation is complete.
 
 Future contribution areas:
 
