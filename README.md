@@ -27,18 +27,17 @@
 
 ## Start Here / Direct Access
 
-New to Linux School? Use the links below instead of digging through folders.
+New to Linux School? Use these links instead of digging through folders.
 
 | What You Want To Do | Go Here |
 |---|---|
-| Learn how to use Linux School | [Start Here](website/docs/start-here.md) |
-| Download and run the project locally | [Download and Run Guide](website/docs/download-and-run.md) |
-| Use the terminal-based course menu | [CLI Guide](website/docs/cli-guide.md) |
+| Learn how to use Linux School | [Start Here](START_HERE.md) |
+| Download and run the project locally | [Download Guide](DOWNLOAD.md) |
+| Use the terminal-based course menu | [CLI Guide](CLI_GUIDE.md) |
+| View the full module roadmap | [Module Roadmap](MODULE_ROADMAP.md) |
 | Run or build the website | [Website Build Guide](WEBSITE_BUILD.md) |
 | View the website source files | [Website Folder](website/) |
 | Open the CLI launcher script | [Linux School CLI](tools/linux-school.sh) |
-| View the full module roadmap | [Module Roadmap](website/docs/modules/index.md) |
-
 ---
 
 ## Quick Run Commands
