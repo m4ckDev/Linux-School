@@ -76,7 +76,7 @@ Linux is learned through repetition, not memorization.
 | 00 | Getting Started | [Overview](lessons/00-getting-started/README.md) | [Lesson](lessons/00-getting-started/lesson.md) | [Practice](lessons/00-getting-started/practice.md) | [Lab](labs/lab-01-getting-started.md) | [Challenge](challenges/beginner/challenge-00-getting-started.md) | [Quiz](quizzes/quiz-01-getting-started.md) | Built |
 | 01 | Navigation | [Overview](lessons/01-navigation/README.md) | [Lesson](lessons/01-navigation/lesson.md) | [Practice](lessons/01-navigation/practice.md) | [Lab](labs/lab-02-navigation.md) | [Challenge](challenges/beginner/challenge-01-navigation.md) | [Quiz](quizzes/quiz-02-navigation.md) | Built |
 | 02 | Files and Directories | [Overview](lessons/02-files-and-directories/README.md) | [Lesson](lessons/02-files-and-directories/lesson.md) | [Practice](lessons/02-files-and-directories/practice.md) | [Lab](labs/lab-03-files-and-directories.md) | [Challenge](challenges/beginner/challenge-02-files-and-directories.md) | [Quiz](quizzes/quiz-03-files-and-directories.md) | Built |
-| 03 | Users and Permissions | [Overview](lessons/03-users-and-permissions/README.md) | [Lesson](lessons/03-users-and-permissions/lesson.md) | [Practice](lessons/03-users-and-permissions/practice.md) | [Lab](labs/lab-04-users-and-permissions.md) | [Challenge](challenges/beginner/challenge-03-permission-fix.md) | [Quiz](quizzes/quiz-04-users-and-permissions.md) | In Progress |
+| 03 | Users and Permissions | [Overview](lessons/03-users-and-permissions/README.md) | [Lesson](lessons/03-users-and-permissions/lesson.md) | [Practice](lessons/03-users-and-permissions/practice.md) | [Lab](labs/lab-04-users-and-permissions.md) | [Challenge](challenges/beginner/challenge-03-permission-fix.md) | [Quiz](quizzes/quiz-04-users-and-permissions.md) | Built |
 | 04 | Processes and Services | [Overview](lessons/04-processes-and-services/README.md) | [Lesson](lessons/04-processes-and-services/lesson.md) | [Practice](lessons/04-processes-and-services/practice.md) | [Lab](labs/lab-05-processes-and-services.md) | [Challenge](challenges/beginner/challenge-04-processes-and-services.md) | [Quiz](quizzes/quiz-05-processes-and-services.md) | Scaffolded |
 | 05 | Package Management | [Overview](lessons/05-package-management/README.md) | [Lesson](lessons/05-package-management/lesson.md) | [Practice](lessons/05-package-management/practice.md) | [Lab](labs/lab-06-package-management.md) | [Challenge](challenges/beginner/challenge-05-package-management.md) | [Quiz](quizzes/quiz-06-package-management.md) | Scaffolded |
 | 06 | Searching and Finding Files | [Overview](lessons/06-searching-and-finding-files/README.md) | [Lesson](lessons/06-searching-and-finding-files/lesson.md) | [Practice](lessons/06-searching-and-finding-files/practice.md) | [Lab](labs/lab-07-searching-and-finding-files.md) | [Challenge](challenges/beginner/challenge-06-searching-and-finding-files.md) | [Quiz](quizzes/quiz-07-searching-and-finding-files.md) | Scaffolded |
@@ -248,18 +248,19 @@ Linux fundamentals stay.
 ## Current Build Focus
 
 ```text
-Current module:
+Completed module:
   03-users-and-permissions
 
-Completed Module 03 files:
+Built Module 03 files:
   lessons/03-users-and-permissions/README.md
   lessons/03-users-and-permissions/lesson.md
   lessons/03-users-and-permissions/practice.md
-
-Next deep-build files:
   labs/lab-04-users-and-permissions.md
   challenges/beginner/challenge-03-permission-fix.md
   quizzes/quiz-04-users-and-permissions.md
+
+Next deep-build module:
+  04-processes-and-services
 ```
 
 ---
