@@ -11,19 +11,59 @@
 
 # Linux School
 
-### Hands-On Linux CLI Training Repository
+### Hands-On Linux CLI Training Platform
 
 **Built by [m4ckDev](https://github.com/m4ckDev)**
 
 ![Status](https://img.shields.io/badge/status-in%20progress-blue)
 ![Focus](https://img.shields.io/badge/focus-linux%20cli-green)
 ![Level](https://img.shields.io/badge/level-beginner%20to%20intermediate-orange)
+![CLI](https://img.shields.io/badge/CLI-enabled-brightgreen)
+![Website](https://img.shields.io/badge/website-Docusaurus-purple)
 ![Built With](https://img.shields.io/badge/built%20with-markdown-black)
 
 </div>
 
-<!-- DIRECT_ACCESS_START -->
+<p align="right">
+  <a href="https://buymeacoffee.com/itsmack">
+    <strong>☕ Buy Me a Coffee</strong>
+  </a>
+  <br>
+  <sub>Support future Linux School lessons, labs, CLI tools, and website updates.</sub>
+</p>
+
 ---
+
+## What Is Linux School?
+
+**Linux School** is a hands-on Linux command line training platform built for people who want to learn Linux by actually using the terminal.
+
+This project includes:
+
+* Lessons
+* Practice files
+* Hands-on labs
+* Beginner challenges
+* Quizzes
+* A terminal-based CLI launcher
+* A Docusaurus website portal
+
+The goal is simple:
+
+```text
+Open the terminal.
+Run the commands.
+Break small things.
+Fix them.
+Build real Linux skill.
+```
+
+---
+
+## Start Here / Direct Access
+
+New to Linux School? Use these links instead of digging through folders.
+
 | What You Want To Do                  | Go Here                                 |
 | ------------------------------------ | --------------------------------------- |
 | Learn how to use Linux School        | [Start Here](START_HERE.md)             |
@@ -31,24 +71,31 @@
 | Use the terminal-based course menu   | [CLI Guide](CLI_GUIDE.md)               |
 | View the full module roadmap         | [Module Roadmap](MODULE_ROADMAP.md)     |
 | Run or build the website             | [Website Build Guide](WEBSITE_BUILD.md) |
+
 ---
 
-## Quick Run Commands
+## Quick Start
 
-Clone the repo:
+Clone the repository:
 
 ```bash
 git clone https://github.com/m4ckDev/Linux-School.git
 cd Linux-School
 ```
 
-Run the CLI classroom:
+Run the Linux School CLI:
 
 ```bash
 bash tools/linux-school.sh
 ```
 
-Open Module 03 directly:
+List all modules:
+
+```bash
+bash tools/linux-school.sh list
+```
+
+Open Module 03 lesson directly:
 
 ```bash
 bash tools/linux-school.sh open 03 lesson
@@ -60,7 +107,21 @@ Open Module 04 overview directly:
 bash tools/linux-school.sh open 04 overview
 ```
 
-Run the website locally:
+When a file opens in the terminal viewer, press:
+
+```text
+q
+```
+
+to quit.
+
+---
+
+## Run the Website Locally
+
+Linux School also includes a local website built with Docusaurus.
+
+From the repo root:
 
 ```bash
 cd website
@@ -74,64 +135,54 @@ Then open:
 http://localhost:3000/Linux-School/
 ```
 
----
+The website only runs while `npm start` is still running.
 
-## Main Project Areas
-
-| Area | Purpose |
-|---|---|
-| [lessons/](lessons/) | Module lessons and practice files |
-| [labs/](labs/) | Hands-on labs |
-| [challenges/](challenges/) | Skill challenges |
-| [quizzes/](quizzes/) | Knowledge checks |
-| [tools/](tools/) | CLI and helper scripts |
-| [website/](website/) | Docusaurus website portal |
-
-<!-- DIRECT_ACCESS_END -->
-
-
----
-
-## Mission
-
-**Linux School** is a hands-on learning repository built to teach Linux command line skills through real terminal practice.
-
-This repo is designed to help learners open a terminal, run commands, break small things, fix mistakes, and build confidence.
+For more details, read:
 
 ```text
-root@linux-school:~$ learn
-root@linux-school:~$ practice
-root@linux-school:~$ troubleshoot
-root@linux-school:~$ repeat
+WEBSITE_BUILD.md
 ```
 
 ---
 
-## Who This Repo Is For
+## Who This Is For
 
 Linux School is for:
 
-- New Linux users
-- Cybersecurity students
-- Homelab builders
-- Help desk learners
-- Future system administrators
-- Anyone who wants to stop being scared of the terminal
+* New Linux users
+* Cybersecurity students
+* Homelab builders
+* Help desk learners
+* Future system administrators
+* Anyone trying to get comfortable with the terminal
 
 No advanced Linux experience is required.
 
 ---
 
-## Learning Philosophy
+## How the Course Works
+
+Each module follows the same structure:
 
 ```text
-Explain it.
-Show the command.
-Run the command.
-Read the output.
-Fix a mistake.
-Repeat.
+Overview
+Lesson
+Practice
+Lab
+Challenge
+Quiz
 ```
+
+Recommended flow:
+
+1. Read the module overview.
+2. Read the lesson.
+3. Complete the practice file.
+4. Complete the lab.
+5. Attempt the challenge.
+6. Take the quiz.
+7. Repeat until the commands feel normal.
+8. Move to the next module.
 
 Linux is learned through repetition, not memorization.
 
@@ -139,32 +190,32 @@ Linux is learned through repetition, not memorization.
 
 ## Current Module Roadmap
 
-| Module | Topic | Overview | Lesson | Practice | Lab | Challenge | Quiz | Status |
-|---|---|---|---|---|---|---|---|---|
-| 00 | Getting Started | [Overview](lessons/00-getting-started/README.md) | [Lesson](lessons/00-getting-started/lesson.md) | [Practice](lessons/00-getting-started/practice.md) | [Lab](labs/lab-01-getting-started.md) | [Challenge](challenges/beginner/challenge-00-getting-started.md) | [Quiz](quizzes/quiz-01-getting-started.md) | Built |
-| 01 | Navigation | [Overview](lessons/01-navigation/README.md) | [Lesson](lessons/01-navigation/lesson.md) | [Practice](lessons/01-navigation/practice.md) | [Lab](labs/lab-02-navigation.md) | [Challenge](challenges/beginner/challenge-01-navigation.md) | [Quiz](quizzes/quiz-02-navigation.md) | Built |
-| 02 | Files and Directories | [Overview](lessons/02-files-and-directories/README.md) | [Lesson](lessons/02-files-and-directories/lesson.md) | [Practice](lessons/02-files-and-directories/practice.md) | [Lab](labs/lab-03-files-and-directories.md) | [Challenge](challenges/beginner/challenge-02-files-and-directories.md) | [Quiz](quizzes/quiz-03-files-and-directories.md) | Built |
-| 03 | Users and Permissions | [Overview](lessons/03-users-and-permissions/README.md) | [Lesson](lessons/03-users-and-permissions/lesson.md) | [Practice](lessons/03-users-and-permissions/practice.md) | [Lab](labs/lab-04-users-and-permissions.md) | [Challenge](challenges/beginner/challenge-03-permission-fix.md) | [Quiz](quizzes/quiz-04-users-and-permissions.md) | Built |
-| 04 | Processes and Services | [Overview](lessons/04-processes-and-services/README.md) | [Lesson](lessons/04-processes-and-services/lesson.md) | [Practice](lessons/04-processes-and-services/practice.md) | [Lab](labs/lab-05-processes-and-services.md) | [Challenge](challenges/beginner/challenge-04-processes-and-services.md) | [Quiz](quizzes/quiz-05-processes-and-services.md) | Scaffolded |
-| 05 | Package Management | [Overview](lessons/05-package-management/README.md) | [Lesson](lessons/05-package-management/lesson.md) | [Practice](lessons/05-package-management/practice.md) | [Lab](labs/lab-06-package-management.md) | [Challenge](challenges/beginner/challenge-05-package-management.md) | [Quiz](quizzes/quiz-06-package-management.md) | Scaffolded |
-| 06 | Searching and Finding Files | [Overview](lessons/06-searching-and-finding-files/README.md) | [Lesson](lessons/06-searching-and-finding-files/lesson.md) | [Practice](lessons/06-searching-and-finding-files/practice.md) | [Lab](labs/lab-07-searching-and-finding-files.md) | [Challenge](challenges/beginner/challenge-06-searching-and-finding-files.md) | [Quiz](quizzes/quiz-07-searching-and-finding-files.md) | Scaffolded |
-| 07 | Text Processing | [Overview](lessons/07-text-processing/README.md) | [Lesson](lessons/07-text-processing/lesson.md) | [Practice](lessons/07-text-processing/practice.md) | [Lab](labs/lab-08-text-processing.md) | [Challenge](challenges/beginner/challenge-07-text-processing.md) | [Quiz](quizzes/quiz-08-text-processing.md) | Scaffolded |
-| 08 | Networking Basics | [Overview](lessons/08-networking-basics/README.md) | [Lesson](lessons/08-networking-basics/lesson.md) | [Practice](lessons/08-networking-basics/practice.md) | [Lab](labs/lab-09-networking-basics.md) | [Challenge](challenges/beginner/challenge-08-networking-basics.md) | [Quiz](quizzes/quiz-09-networking-basics.md) | Scaffolded |
-| 09 | Storage and Filesystems | [Overview](lessons/09-storage-and-filesystems/README.md) | [Lesson](lessons/09-storage-and-filesystems/lesson.md) | [Practice](lessons/09-storage-and-filesystems/practice.md) | [Lab](labs/lab-10-storage-and-filesystems.md) | [Challenge](challenges/beginner/challenge-09-storage-and-filesystems.md) | [Quiz](quizzes/quiz-10-storage-and-filesystems.md) | Scaffolded |
-| 10 | Bash Scripting Basics | [Overview](lessons/10-bash-scripting-basics/README.md) | [Lesson](lessons/10-bash-scripting-basics/lesson.md) | [Practice](lessons/10-bash-scripting-basics/practice.md) | [Lab](labs/lab-11-bash-scripting-basics.md) | [Challenge](challenges/beginner/challenge-10-bash-scripting-basics.md) | [Quiz](quizzes/quiz-11-bash-scripting-basics.md) | Scaffolded |
-| 11 | Logs and Troubleshooting | [Overview](lessons/11-logs-and-troubleshooting/README.md) | [Lesson](lessons/11-logs-and-troubleshooting/lesson.md) | [Practice](lessons/11-logs-and-troubleshooting/practice.md) | [Lab](labs/lab-12-logs-and-troubleshooting.md) | [Challenge](challenges/beginner/challenge-11-logs-and-troubleshooting.md) | [Quiz](quizzes/quiz-12-logs-and-troubleshooting.md) | Scaffolded |
-| 12 | Security Fundamentals | [Overview](lessons/12-security-fundamentals/README.md) | [Lesson](lessons/12-security-fundamentals/lesson.md) | [Practice](lessons/12-security-fundamentals/practice.md) | [Lab](labs/lab-13-security-fundamentals.md) | [Challenge](challenges/beginner/challenge-12-security-fundamentals.md) | [Quiz](quizzes/quiz-13-security-fundamentals.md) | Scaffolded |
+| Module | Topic                       | Overview                                                     | Lesson                                                     | Practice                                                       | Lab                                               | Challenge                                                                    | Quiz                                                   | Status      |
+| ------ | --------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------ | ----------- |
+| 00     | Getting Started             | [Overview](lessons/00-getting-started/README.md)             | [Lesson](lessons/00-getting-started/lesson.md)             | [Practice](lessons/00-getting-started/practice.md)             | [Lab](labs/lab-01-getting-started.md)             | [Challenge](challenges/beginner/challenge-00-getting-started.md)             | [Quiz](quizzes/quiz-01-getting-started.md)             | Built       |
+| 01     | Navigation                  | [Overview](lessons/01-navigation/README.md)                  | [Lesson](lessons/01-navigation/lesson.md)                  | [Practice](lessons/01-navigation/practice.md)                  | [Lab](labs/lab-02-navigation.md)                  | [Challenge](challenges/beginner/challenge-01-navigation.md)                  | [Quiz](quizzes/quiz-02-navigation.md)                  | Built       |
+| 02     | Files and Directories       | [Overview](lessons/02-files-and-directories/README.md)       | [Lesson](lessons/02-files-and-directories/lesson.md)       | [Practice](lessons/02-files-and-directories/practice.md)       | [Lab](labs/lab-03-files-and-directories.md)       | [Challenge](challenges/beginner/challenge-02-files-and-directories.md)       | [Quiz](quizzes/quiz-03-files-and-directories.md)       | Built       |
+| 03     | Users and Permissions       | [Overview](lessons/03-users-and-permissions/README.md)       | [Lesson](lessons/03-users-and-permissions/lesson.md)       | [Practice](lessons/03-users-and-permissions/practice.md)       | [Lab](labs/lab-04-users-and-permissions.md)       | [Challenge](challenges/beginner/challenge-03-permission-fix.md)              | [Quiz](quizzes/quiz-04-users-and-permissions.md)       | Built       |
+| 04     | Processes and Services      | [Overview](lessons/04-processes-and-services/README.md)      | [Lesson](lessons/04-processes-and-services/lesson.md)      | [Practice](lessons/04-processes-and-services/practice.md)      | [Lab](labs/lab-05-processes-and-services.md)      | [Challenge](challenges/beginner/challenge-04-processes-and-services.md)      | [Quiz](quizzes/quiz-05-processes-and-services.md)      | In Progress |
+| 05     | Package Management          | [Overview](lessons/05-package-management/README.md)          | [Lesson](lessons/05-package-management/lesson.md)          | [Practice](lessons/05-package-management/practice.md)          | [Lab](labs/lab-06-package-management.md)          | [Challenge](challenges/beginner/challenge-05-package-management.md)          | [Quiz](quizzes/quiz-06-package-management.md)          | Scaffolded  |
+| 06     | Searching and Finding Files | [Overview](lessons/06-searching-and-finding-files/README.md) | [Lesson](lessons/06-searching-and-finding-files/lesson.md) | [Practice](lessons/06-searching-and-finding-files/practice.md) | [Lab](labs/lab-07-searching-and-finding-files.md) | [Challenge](challenges/beginner/challenge-06-searching-and-finding-files.md) | [Quiz](quizzes/quiz-07-searching-and-finding-files.md) | Scaffolded  |
+| 07     | Text Processing             | [Overview](lessons/07-text-processing/README.md)             | [Lesson](lessons/07-text-processing/lesson.md)             | [Practice](lessons/07-text-processing/practice.md)             | [Lab](labs/lab-08-text-processing.md)             | [Challenge](challenges/beginner/challenge-07-text-processing.md)             | [Quiz](quizzes/quiz-08-text-processing.md)             | Scaffolded  |
+| 08     | Networking Basics           | [Overview](lessons/08-networking-basics/README.md)           | [Lesson](lessons/08-networking-basics/lesson.md)           | [Practice](lessons/08-networking-basics/practice.md)           | [Lab](labs/lab-09-networking-basics.md)           | [Challenge](challenges/beginner/challenge-08-networking-basics.md)           | [Quiz](quizzes/quiz-09-networking-basics.md)           | Scaffolded  |
+| 09     | Storage and Filesystems     | [Overview](lessons/09-storage-and-filesystems/README.md)     | [Lesson](lessons/09-storage-and-filesystems/lesson.md)     | [Practice](lessons/09-storage-and-filesystems/practice.md)     | [Lab](labs/lab-10-storage-and-filesystems.md)     | [Challenge](challenges/beginner/challenge-09-storage-and-filesystems.md)     | [Quiz](quizzes/quiz-10-storage-and-filesystems.md)     | Scaffolded  |
+| 10     | Bash Scripting Basics       | [Overview](lessons/10-bash-scripting-basics/README.md)       | [Lesson](lessons/10-bash-scripting-basics/lesson.md)       | [Practice](lessons/10-bash-scripting-basics/practice.md)       | [Lab](labs/lab-11-bash-scripting-basics.md)       | [Challenge](challenges/beginner/challenge-10-bash-scripting-basics.md)       | [Quiz](quizzes/quiz-11-bash-scripting-basics.md)       | Scaffolded  |
+| 11     | Logs and Troubleshooting    | [Overview](lessons/11-logs-and-troubleshooting/README.md)    | [Lesson](lessons/11-logs-and-troubleshooting/lesson.md)    | [Practice](lessons/11-logs-and-troubleshooting/practice.md)    | [Lab](labs/lab-12-logs-and-troubleshooting.md)    | [Challenge](challenges/beginner/challenge-11-logs-and-troubleshooting.md)    | [Quiz](quizzes/quiz-12-logs-and-troubleshooting.md)    | Scaffolded  |
+| 12     | Security Fundamentals       | [Overview](lessons/12-security-fundamentals/README.md)       | [Lesson](lessons/12-security-fundamentals/lesson.md)       | [Practice](lessons/12-security-fundamentals/practice.md)       | [Lab](labs/lab-13-security-fundamentals.md)       | [Challenge](challenges/beginner/challenge-12-security-fundamentals.md)       | [Quiz](quizzes/quiz-13-security-fundamentals.md)       | Scaffolded  |
 
 ---
 
 ## Status Key
 
-| Status | Meaning |
-|---|---|
-| Built | File exists and has usable learning content |
-| In Progress | Module is actively being developed |
-| Scaffolded | File exists, links work, full content will be expanded later |
-| Planned | Not created yet |
+| Status      | Meaning                                                             |
+| ----------- | ------------------------------------------------------------------- |
+| Built       | File exists and has usable learning content                         |
+| In Progress | Module is actively being developed                                  |
+| Scaffolded  | File exists and links work, but full content will be expanded later |
+| Planned     | Not created yet                                                     |
 
 ---
 
@@ -173,102 +224,99 @@ Linux is learned through repetition, not memorization.
 ```text
 Linux-School/
 ├── README.md
+├── START_HERE.md
+├── DOWNLOAD.md
+├── CLI_GUIDE.md
+├── MODULE_ROADMAP.md
+├── WEBSITE_BUILD.md
 ├── lessons/
-│   ├── 00-getting-started/
-│   ├── 01-navigation/
-│   ├── 02-files-and-directories/
-│   ├── 03-users-and-permissions/
-│   ├── 04-processes-and-services/
-│   ├── 05-package-management/
-│   ├── 06-searching-and-finding-files/
-│   ├── 07-text-processing/
-│   ├── 08-networking-basics/
-│   ├── 09-storage-and-filesystems/
-│   ├── 10-bash-scripting-basics/
-│   ├── 11-logs-and-troubleshooting/
-│   └── 12-security-fundamentals/
 ├── labs/
 ├── challenges/
-│   └── beginner/
 ├── quizzes/
-└── tools/
+├── tools/
+└── website/
 ```
 
 ---
 
-## Learning Path Flow
+## Main Project Areas
 
-```mermaid
-flowchart TD
-    A[Start Here] --> B[Module 00: Getting Started]
-    B --> C[Module 01: Navigation]
-    C --> D[Module 02: Files and Directories]
-    D --> E[Module 03: Users and Permissions]
-    E --> F[Module 04: Processes and Services]
-    F --> G[Module 05: Package Management]
-    G --> H[Module 06: Searching and Finding Files]
-    H --> I[Module 07: Text Processing]
-    I --> J[Module 08: Networking Basics]
-    J --> K[Module 09: Storage and Filesystems]
-    K --> L[Module 10: Bash Scripting Basics]
-    L --> M[Module 11: Logs and Troubleshooting]
-    M --> N[Module 12: Security Fundamentals]
+| Area                       | Purpose                                       |
+| -------------------------- | --------------------------------------------- |
+| [lessons/](lessons/)       | Module overviews, lessons, and practice files |
+| [labs/](labs/)             | Hands-on labs                                 |
+| [challenges/](challenges/) | Beginner challenges                           |
+| [quizzes/](quizzes/)       | Knowledge checks                              |
+| [tools/](tools/)           | CLI and helper scripts                        |
+| [website/](website/)       | Docusaurus website source                     |
+
+---
+
+## CLI Classroom
+
+The CLI launcher lets users learn without bouncing around GitHub.
+
+Run:
+
+```bash
+bash tools/linux-school.sh
+```
+
+Direct examples:
+
+```bash
+bash tools/linux-school.sh list
+bash tools/linux-school.sh open 00 lesson
+bash tools/linux-school.sh open 03 lab
+bash tools/linux-school.sh open 04 overview
+bash tools/linux-school.sh setup
 ```
 
 ---
 
-## Skills Covered
+## Website Portal
 
-| Skill Area | Examples |
-|---|---|
-| Terminal basics | `pwd`, `clear`, command history |
-| Navigation | `cd`, `ls`, paths |
-| File management | `touch`, `mkdir`, `cp`, `mv`, `rm` |
-| Viewing files | `cat`, `less`, `head`, `tail` |
-| Users and groups | `whoami`, `id`, `groups` |
-| Permissions | `chmod`, `chown`, `stat` |
-| Processes | `ps`, `top`, `kill` |
-| Services | `systemctl`, service status checks |
-| Packages | `apt`, package updates |
-| Searching | `find`, `grep`, `locate` |
-| Networking | `ip`, `ping`, `ss`, `curl` |
-| Storage | `df`, `du`, `lsblk`, `mount` |
-| Scripting | Bash basics and automation |
-| Logs | Reading and troubleshooting system logs |
-| Security | Safer permissions and system awareness |
+The website is the visual front door for Linux School.
 
----
+Run locally:
 
-## Recommended Practice Environment
+```bash
+cd website
+npm install
+npm start
+```
 
-Use a safe Linux environment:
+Build the website:
 
-- Ubuntu virtual machine
-- Debian virtual machine
-- Kali Linux virtual machine
-- WSL on Windows
-- Raspberry Pi
-- Spare Linux laptop
-- Cloud Linux instance
+```bash
+cd website
+npm run build
+```
 
-For beginners, Ubuntu or Debian is recommended.
+Preview the production build:
+
+```bash
+cd website
+npm run serve -- --host 0.0.0.0 --port 3000
+```
+
+Read the full guide:
+
+```text
+WEBSITE_BUILD.md
+```
 
 ---
 
-## Safe Practice Folder
+## Practice Safely
+
+Create safe practice folders:
 
 ```bash
 mkdir -p ~/linux-school-practice
-cd ~/linux-school-practice
+mkdir -p ~/linux-school-labs
+mkdir -p ~/linux-school-challenges
 ```
-
-Do not practice destructive commands in important folders.
-
-Avoid running commands as `sudo` unless the lesson specifically tells you to.
-
----
-
-## Safety Rules
 
 Before running a command, ask:
 
@@ -296,20 +344,39 @@ Linux is a core cybersecurity skill.
 
 This repo builds the foundation needed for:
 
-- Kali Linux
-- Penetration testing
-- Capture the Flag practice
-- Log analysis
-- Server hardening
-- File permission auditing
-- Bash scripting
-- Network troubleshooting
-- Homelab administration
+* Kali Linux
+* Penetration testing
+* Capture the Flag practice
+* Log analysis
+* Server hardening
+* File permission auditing
+* Bash scripting
+* Network troubleshooting
+* Homelab administration
+* Incident response basics
 
 ```text
 Tools change.
 Linux fundamentals stay.
 ```
+
+---
+
+## Support Linux School
+
+If Linux School helped you learn Linux, cybersecurity, or command line skills, consider supporting future lessons, labs, challenges, CLI tools, and website updates.
+
+<a href="https://buymeacoffee.com/itsmack">
+  <strong>☕ Buy Me a Coffee</strong>
+</a>
+
+Other ways to support:
+
+* Star the repo
+* Share it with someone learning Linux
+* Report issues
+* Suggest better labs or challenges
+* Contribute improvements
 
 ---
 
@@ -319,16 +386,13 @@ Linux fundamentals stay.
 Completed module:
   03-users-and-permissions
 
-Built Module 03 files:
-  lessons/03-users-and-permissions/README.md
-  lessons/03-users-and-permissions/lesson.md
-  lessons/03-users-and-permissions/practice.md
-  labs/lab-04-users-and-permissions.md
-  challenges/beginner/challenge-03-permission-fix.md
-  quizzes/quiz-04-users-and-permissions.md
-
-Next deep-build module:
+Current module:
   04-processes-and-services
+
+Website:
+  Docusaurus foundation created
+  Local website preview working
+  Website build guide added
 ```
 
 ---
