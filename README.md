@@ -24,20 +24,13 @@
 
 <!-- DIRECT_ACCESS_START -->
 ---
-
-## Start Here / Direct Access
-
-New to Linux School? Use these links instead of digging through folders.
-
-| What You Want To Do | Go Here |
-|---|---|
-| Learn how to use Linux School | [Start Here](START_HERE.md) |
-| Download and run the project locally | [Download Guide](DOWNLOAD.md) |
-| Use the terminal-based course menu | [CLI Guide](CLI_GUIDE.md) |
-| View the full module roadmap | [Module Roadmap](MODULE_ROADMAP.md) |
-| Run or build the website | [Website Build Guide](WEBSITE_BUILD.md) |
-| View the website source files | [Website Folder](website/) |
-| Open the CLI launcher script | [Linux School CLI](tools/linux-school.sh) |
+| What You Want To Do                  | Go Here                                 |
+| ------------------------------------ | --------------------------------------- |
+| Learn how to use Linux School        | [Start Here](START_HERE.md)             |
+| Download and run the project locally | [Download Guide](DOWNLOAD.md)           |
+| Use the terminal-based course menu   | [CLI Guide](CLI_GUIDE.md)               |
+| View the full module roadmap         | [Module Roadmap](MODULE_ROADMAP.md)     |
+| Run or build the website             | [Website Build Guide](WEBSITE_BUILD.md) |
 ---
 
 ## Quick Run Commands
